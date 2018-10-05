@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="0" name="Tests" time="2.056" errors="0" skipped="0">
+<testsuite tests="3" failures="1" name="Tests" time="3.407" errors="0" skipped="0">
   <properties>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -35,31 +35,31 @@
     <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="LOCALAPPDATA" value="C:\Users\dzvarich\AppData\Local"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8081/job/CryptoDB%20Project/1752/display/redirect?page=changes"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8081/job/CryptoDB%20Project/1912/display/redirect?page=changes"/>
     <property name="user.timezone" value="Europe/Helsinki"/>
     <property name="user.script" value=""/>
     <property name="path.separator" value=";"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
-    <property name="BUILD_TAG" value="jenkins-CryptoDB Project-1752"/>
+    <property name="BUILD_TAG" value="jenkins-CryptoDB Project-1912"/>
     <property name="file.encoding" value="Cp1251"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\dzvarich\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenProject C:\Users\dzvarich\.jenkins\war\WEB-INF\lib\remoting-3.26.jar C:\Users\dzvarich\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\dzvarich\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 57093"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\dzvarich\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenProject C:\Users\dzvarich\.jenkins\war\WEB-INF\lib\remoting-3.26.jar C:\Users\dzvarich\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar C:\Users\dzvarich\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12-alpha-1.jar 51333"/>
     <property name="HUDSON_URL" value="http://127.0.0.1:8081/"/>
     <property name="JENKINS_SERVER_COOKIE" value="6de8c333b767fa9e"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="Path" value="C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseGit\bin;C:\Program Files\PuTTY\;C:\Users\dzvarich\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.5.2\bin;;C:\Users\dzvarich\AppData\Local\Programs\Fiddler"/>
     <property name="java.io.tmpdir" value="C:\Users\dzvarich\AppData\Local\Temp\"/>
     <property name="APPDATA" value="C:\Users\dzvarich\AppData\Roaming"/>
     <property name="user.language" value="en"/>
     <property name="line.separator" value="
 "/>
-    <property name="BUILD_URL" value="http://127.0.0.1:8081/job/CryptoDB%20Project/1752/"/>
+    <property name="BUILD_URL" value="http://127.0.0.1:8081/job/CryptoDB%20Project/1912/"/>
     <property name="M2_HOME" value="C:\Users\dzvarich\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenProject"/>
     <property name="CASSANDRA_HOME" value="C:\Program Files\DataStax-DDC\apache-cassandra\"/>
     <property name="=C:" value="C:\Program Files (x86)\Jenkins"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="sun.desktop" value="windows"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="BUILD_DISPLAY_NAME" value="#1752"/>
+    <property name="BUILD_DISPLAY_NAME" value="#1912"/>
     <property name="OS" value="Windows_NT"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="HUDSON_SERVER_COOKIE" value="6de8c333b767fa9e"/>
@@ -74,7 +74,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="1752"/>
+    <property name="BUILD_NUMBER" value="1912"/>
     <property name="maven3.interceptor" value="C:\Users\dzvarich\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12-alpha-1.jar"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\dzvarich\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenProject/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\Program Files\Docker\Docker\Resources\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.5.2\bin;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseGit\bin;C:\Program Files\PuTTY\;C:\Users\dzvarich\AppData\Local\Microsoft\WindowsApps;C:\Program Files\apache-maven-3.5.2\bin;;C:\Users\dzvarich\AppData\Local\Programs\Fiddler;."/>
     <property name="HOMEDRIVE" value="C:"/>
@@ -84,9 +84,9 @@
     <property name="JOB_URL" value="http://127.0.0.1:8081/job/CryptoDB%20Project/"/>
     <property name="DSCINSTALLDIR" value="C:\Program Files\DataStax-DDC\"/>
     <property name="OneDrive" value="C:\Users\dzvarich\OneDrive"/>
-    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8081/job/CryptoDB%20Project/1752/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8081/job/CryptoDB%20Project/1912/display/redirect"/>
     <property name="JENKINS_HOME" value="C:\Users\dzvarich\.jenkins"/>
-    <property name="BUILD_ID" value="1752"/>
+    <property name="BUILD_ID" value="1912"/>
     <property name="TEMP" value="C:\Users\dzvarich\AppData\Local\Temp"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -114,7 +114,7 @@
     <property name="PROCESSOR_LEVEL" value="6"/>
     <property name="USERDNSDOMAIN" value="UNIVERSE.DART.SPB"/>
     <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
-    <property name="user.dir" value="C:\Users\dzvarich\Dropbox\CryptoProject"/>
+    <property name="user.dir" value="D:\myProjects\CryptoProject"/>
     <property name="maven.conf" value="C:\Users\dzvarich\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\MavenProject\conf"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="TMP" value="C:\Users\dzvarich\AppData\Local\Temp"/>
@@ -150,7 +150,50 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
   </properties>
-  <testcase classname="Tests" name="addNewRecordToDB" time="0.641"/>
-  <testcase classname="Tests" name="dataTest" time="1.188"/>
-  <testcase classname="Tests" name="removeData" time="0.227"/>
+  <testcase classname="Tests" name="addNewRecordToDB" time="1.275"/>
+  <testcase classname="Tests" name="dataTest" time="1.26">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.denis.cryptoproject.framework.WorkingWithFinalData.percentChange(WorkingWithFinalData.java:27)
+	at Tests.dataTest(Tests.java:57)
+</failure>
+    <system-out>Node is empty
+Cannot convert empty string
+Node is empty
+Cannot convert empty string
+Node is empty
+Cannot convert empty string
+</system-out>
+    <system-err>окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Closed connection [connectionId{localValue:5, serverValue:488888}] to ds123753.mlab.com:23753 because the pool has been closed.
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[ds123753.mlab.com:23753], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&apos;30000 ms&apos;, maxWaitQueueSize=500}
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[ds123753.mlab.com:23753], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&apos;30000 ms&apos;, maxWaitQueueSize=500}
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[ds123753.mlab.com:23753], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&apos;30000 ms&apos;, maxWaitQueueSize=500}
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster created with settings {hosts=[ds123753.mlab.com:23753], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout=&apos;30000 ms&apos;, maxWaitQueueSize=500}
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Cluster description not yet available. Waiting for 30000 ms before timing out
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:8, serverValue:488891}] to ds123753.mlab.com:23753
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:6, serverValue:488889}] to ds123753.mlab.com:23753
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:7, serverValue:488890}] to ds123753.mlab.com:23753
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:9, serverValue:488892}] to ds123753.mlab.com:23753
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Monitor thread successfully connected to server with description ServerDescription{address=ds123753.mlab.com:23753, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 8]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=62260604, setName=&apos;rs-ds123753&apos;, canonicalAddress=ds123753-a.mlab.com:23753, hosts=[ds123753-a.mlab.com:23753], passives=[], arbiters=[], primary=&apos;ds123753-a.mlab.com:23753&apos;, tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Sat Oct 06 02:57:10 EEST 2018, lastUpdateTimeNanos=317166626718632}
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Monitor thread successfully connected to server with description ServerDescription{address=ds123753.mlab.com:23753, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 8]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=65069975, setName=&apos;rs-ds123753&apos;, canonicalAddress=ds123753-a.mlab.com:23753, hosts=[ds123753-a.mlab.com:23753], passives=[], arbiters=[], primary=&apos;ds123753-a.mlab.com:23753&apos;, tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Sat Oct 06 02:57:10 EEST 2018, lastUpdateTimeNanos=317166630697692}
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Monitor thread successfully connected to server with description ServerDescription{address=ds123753.mlab.com:23753, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 8]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=65639782, setName=&apos;rs-ds123753&apos;, canonicalAddress=ds123753-a.mlab.com:23753, hosts=[ds123753-a.mlab.com:23753], passives=[], arbiters=[], primary=&apos;ds123753-a.mlab.com:23753&apos;, tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Sat Oct 06 02:57:10 EEST 2018, lastUpdateTimeNanos=317166630685132}
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Monitor thread successfully connected to server with description ServerDescription{address=ds123753.mlab.com:23753, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 6, 8]}, minWireVersion=0, maxWireVersion=6, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=65702249, setName=&apos;rs-ds123753&apos;, canonicalAddress=ds123753-a.mlab.com:23753, hosts=[ds123753-a.mlab.com:23753], passives=[], arbiters=[], primary=&apos;ds123753-a.mlab.com:23753&apos;, tagSet=TagSet{[]}, electionId=7fffffff0000000000000001, setVersion=1, lastWriteDate=Sat Oct 06 02:57:10 EEST 2018, lastUpdateTimeNanos=317166639676770}
+окт 06, 2018 2:57:10 AM com.mongodb.diagnostics.logging.JULLogger log
+INFO: Opened connection [connectionId{localValue:10, serverValue:488893}] to ds123753.mlab.com:23753
+</system-err>
+  </testcase>
+  <testcase classname="Tests" name="removeData" time="0.872"/>
 </testsuite>

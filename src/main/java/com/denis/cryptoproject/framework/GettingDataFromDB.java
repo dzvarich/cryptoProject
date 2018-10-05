@@ -31,30 +31,6 @@ public class GettingDataFromDB {
         return dateFormat.format(currentDate.getTime());
     }
 
-    public String getYesterdayToString(){
-        Calendar yesterday = Calendar.getInstance();
-        yesterday.add(Calendar.DATE, -1);
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm");
-        dateFormat.setCalendar(yesterday);
-        return dateFormat.format(yesterday.getTime());
-    }
-
-    public String getDayToDelete(){
-        Calendar yesterday = Calendar.getInstance();
-        yesterday.add(Calendar.DATE, -1);
-        yesterday.add(Calendar.MINUTE, -1);
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm");
-        dateFormat.setCalendar(yesterday);
-        return dateFormat.format(yesterday.getTime());
-    }
-
-    public void findAndShowAll (){
-        try (MongoCursor<Document> cursor = mongoDbConnection.collection.find().iterator()) {
-            while (cursor.hasNext()) {
-                System.out.println(cursor.next().toJson());
-            }
-        }
-    }
     public HashMap<String, String> getData (List<String> list, String day){
         HashMap <String, String> result = new HashMap<>();
         for (String currency: list

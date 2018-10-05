@@ -1,6 +1,7 @@
 package com.denis.cryptoproject.utils;
 
 import com.mongodb.MongoClient;
+import com.mongodb.MongoClientURI;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import com.mongodb.client.result.DeleteResult;
@@ -12,9 +13,9 @@ import static com.mongodb.client.model.Filters.eq;
 
 public class MongoDbConnection {
 
-    public MongoClient mongoClient = new MongoClient("localhost", 27017);
-
-    public MongoDatabase db = mongoClient.getDatabase("CryptoDB");
+    public MongoClientURI uri  = new MongoClientURI("mongodb://dzvarich:Tapckoe1@ds123753.mlab.com:23753/cryptodb");
+    public MongoClient mongoClient = new MongoClient(uri);
+    private MongoDatabase db = mongoClient.getDatabase(uri.getDatabase());
     public MongoCollection<Document> collection = db.getCollection("collectionOfCurrencies");
 
         public MongoDbConnection() {

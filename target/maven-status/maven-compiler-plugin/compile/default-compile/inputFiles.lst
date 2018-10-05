@@ -1,8 +1,8 @@
-C:\Users\dzvarich\Dropbox\CryptoProject\src\main\java\com\denis\cryptoproject\utils\LoggerClass.java
-C:\Users\dzvarich\Dropbox\CryptoProject\src\main\java\com\denis\cryptoproject\framework\DocumentGenerator.java
-C:\Users\dzvarich\Dropbox\CryptoProject\src\main\java\com\denis\cryptoproject\framework\WorkingWithFinalData.java
-C:\Users\dzvarich\Dropbox\CryptoProject\src\main\java\com\denis\cryptoproject\framework\UnknownPropertyException.java
-C:\Users\dzvarich\Dropbox\CryptoProject\src\main\java\com\denis\cryptoproject\framework\GettingDataFromDB.java
-C:\Users\dzvarich\Dropbox\CryptoProject\src\main\java\com\denis\cryptoproject\utils\MongoDbConnection.java
-C:\Users\dzvarich\Dropbox\CryptoProject\src\main\java\com\denis\cryptoproject\framework\Settings.java
-C:\Users\dzvarich\Dropbox\CryptoProject\src\main\java\com\denis\cryptoproject\models\Model.java
+D:\myProjects\CryptoProject\src\main\java\com\denis\cryptoproject\models\Model.java
+D:\myProjects\CryptoProject\src\main\java\com\denis\cryptoproject\utils\LoggerClass.java
+D:\myProjects\CryptoProject\src\main\java\com\denis\cryptoproject\framework\GettingDataFromDB.java
+D:\myProjects\CryptoProject\src\main\java\com\denis\cryptoproject\framework\WorkingWithFinalData.java
+D:\myProjects\CryptoProject\src\main\java\com\denis\cryptoproject\framework\Settings.java
+D:\myProjects\CryptoProject\src\main\java\com\denis\cryptoproject\utils\MongoDbConnection.java
+D:\myProjects\CryptoProject\src\main\java\com\denis\cryptoproject\framework\DocumentGenerator.java
+D:\myProjects\CryptoProject\src\main\java\com\denis\cryptoproject\framework\UnknownPropertyException.java
