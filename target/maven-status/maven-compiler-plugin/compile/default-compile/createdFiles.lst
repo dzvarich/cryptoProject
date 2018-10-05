@@ -1,0 +1,7 @@
+com\denis\cryptoproject\framework\GettingDataFromDB.class
+com\denis\cryptoproject\utils\MongoDbConnection.class
+com\denis\cryptoproject\framework\UnknownPropertyException.class
+com\denis\cryptoproject\utils\LoggerClass.class
+com\denis\cryptoproject\framework\Settings.class
+com\denis\cryptoproject\models\Model.class
+com\denis\cryptoproject\framework\DocumentGenerator.class

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Tests]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="Tests">
+        <methods>
+          <include name="time"/>
+          <include name="afterMethod"/>
+          <include name="addNewRecordToDB"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Tests -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Tests] -->
