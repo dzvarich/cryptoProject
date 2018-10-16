@@ -54,7 +54,12 @@ public class Tests {
         HashMap <String, Double> value2 = workingWithFinalData.getDoubleFor(bittrex, today);
         for (String currency: bittrex
              ) {
-            System.out.println(currency + " = " + workingWithFinalData.percentChange(value1.get(currency), value2.get(currency)));
+            try {
+                System.out.println(currency + " = " + workingWithFinalData.percentChange(value1.get(currency), value2.get(currency)));
+            }catch (NullPointerException e){
+                System.out.println("No data to compare for "+ currency);
+            }
+
         }
 
     }
