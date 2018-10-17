@@ -63,7 +63,6 @@ public class Tests {
         }
 
     }
-
     @Test
     public void removeData (){
         mongoDbConnection.removeRecords(dayToDelte);
