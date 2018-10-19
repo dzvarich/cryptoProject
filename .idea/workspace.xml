@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="459c524f-ad0f-4abc-83d3-294343f46ee2" name="Default" comment="Changed Database to Cloud mlab">
+    <list default="true" id="459c524f-ad0f-4abc-83d3-294343f46ee2" name="Default" comment="Turn off logs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/GettingDataFromDB (Конфликтующая копия с компьютера DESKTOP-PGFVAHP 2018-10-05).class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/utils/MongoDbConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/utils/MongoDbConnection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Tests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/Tests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Tests.txt" afterDir="false" />
@@ -79,13 +77,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="102" />
-          <entry key="txt" value="32" />
+          <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="102" />
-          <entry key="PLAIN_TEXT" value="32" />
+          <entry key="PLAIN_TEXT" value="45" />
         </counts>
       </usages-collector>
     </session>
@@ -107,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="143">
+              <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -254,6 +252,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2449" />
+    <option name="y" value="-23" />
     <option name="width" value="1131" />
     <option name="height" value="776" />
   </component>
@@ -520,7 +520,14 @@
       <option name="project" value="LOCAL" />
       <updated>1538783875617</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Turn off logs">
+      <created>1539937072403</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539937072403</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -565,8 +572,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -577,7 +583,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32837406" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4989154" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4989154" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39479393" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -633,7 +639,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed Database to Cloud mlab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Database to Cloud mlab" />
+    <MESSAGE value="Turn off logs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Turn off logs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -799,8 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="143">
+          <caret line="30" column="19" lean-forward="true" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
