@@ -26,7 +26,7 @@ public class Tests {
     private Settings settings;
     private String today;
     private String yesterday;
-    private String dayToDelte;
+    private String dayToDelete;
     private List<String> bittrex;
 
     @BeforeMethod()
@@ -37,16 +37,16 @@ public class Tests {
         gettingDataFromDB = new GettingDataFromDB();
         workingWithFinalData = new WorkingWithFinalData();
         settings = new Settings();
-        today = gettingDataFromDB.getTodayToString(0, 0);
-        yesterday = gettingDataFromDB.getTodayToString(-1, 0);
-        dayToDelte = gettingDataFromDB.getTodayToString(-1, -5);
+        today = gettingDataFromDB.getTodayToString(0,0);
+        yesterday = gettingDataFromDB.getTodayToString(-1,0);
+        dayToDelete = gettingDataFromDB.getTodayToString(-1,-5);
         bittrex = getCurrencyFromArray(getBittrexCurrencies());
     }
 
     @Test
-    public void addNewRecordToDB() throws IOException, ParseException {
+    public void addNewRecordToDB () throws IOException, ParseException {
         String jsonResult = documentGenerator.getJsonFromAPI(settings.getBittrexUrl());
-        List<Document> docs = documentGenerator.createListOfDocs(jsonResult);
+        List <Document> docs = documentGenerator.createListOfDocs(jsonResult);
         mongoDbConnection.insertNewItem(docs);
     }
 
@@ -65,15 +65,14 @@ public class Tests {
         }
 
     }
-
     @Test
-    public void removeData() {
-        mongoDbConnection.removeRecords(dayToDelte);
+    public void removeData (){
+        mongoDbConnection.removeRecords(dayToDelete);
     }
 
 
     @AfterMethod()
-    public void afterMethod() {
+    public void afterMethod () {
         mongoDbConnection.mongoClient.close();
     }
 }
