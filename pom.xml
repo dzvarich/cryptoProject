@@ -8,9 +8,6 @@
     <artifactId>CryptoProject</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
