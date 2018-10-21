@@ -2,7 +2,6 @@
 #
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
-version: 2
 workflows:
    version: 2
    nightly:
