@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.text.ParseException;
 import java.util.HashMap;
 import java.util.List;
+import java.util.logging.LogManager;
 
 import static com.denis.cryptoproject.framework.Settings.getBittrexCurrencies;
 import static com.denis.cryptoproject.framework.Settings.getCurrencyFromArray;
@@ -25,20 +26,21 @@ public class Tests {
     private Settings settings;
     private String today;
     private String yesterday;
-    private String dayToDelte;
+    private String dayToDelete;
     private List<String> bittrex;
 
     @BeforeMethod()
     public void beforeMethod() throws IOException {
-    documentGenerator = new DocumentGenerator();
-    mongoDbConnection = new MongoDbConnection();
-    gettingDataFromDB = new GettingDataFromDB();
-    workingWithFinalData = new WorkingWithFinalData();
-    settings = new Settings();
-    today = gettingDataFromDB.getTodayToString(0,0);
-    yesterday = gettingDataFromDB.getTodayToString(-1,0);
-    dayToDelte = gettingDataFromDB.getTodayToString(-1,-5);
-    bittrex = getCurrencyFromArray(getBittrexCurrencies());
+        LogManager.getLogManager().reset();
+        documentGenerator = new DocumentGenerator();
+        mongoDbConnection = new MongoDbConnection();
+        gettingDataFromDB = new GettingDataFromDB();
+        workingWithFinalData = new WorkingWithFinalData();
+        settings = new Settings();
+        today = gettingDataFromDB.getTodayToString(0,0);
+        yesterday = gettingDataFromDB.getTodayToString(-1,0);
+        dayToDelete = gettingDataFromDB.getTodayToString(-1,-5);
+        bittrex = getCurrencyFromArray(getBittrexCurrencies());
     }
 
     @Test
@@ -49,15 +51,15 @@ public class Tests {
     }
 
     @Test
-    public void dataTest () throws IOException{
-        HashMap <String, Double> value1 = workingWithFinalData.getDoubleFor(bittrex, yesterday);
-        HashMap <String, Double> value2 = workingWithFinalData.getDoubleFor(bittrex, today);
-        for (String currency: bittrex
-             ) {
+    public void dataTest() throws IOException {
+        HashMap<String, Double> value1 = workingWithFinalData.getDoubleFor(bittrex, yesterday);
+        HashMap<String, Double> value2 = workingWithFinalData.getDoubleFor(bittrex, today);
+        for (String currency : bittrex
+        ) {
             try {
                 System.out.println(currency + " = " + workingWithFinalData.percentChange(value1.get(currency), value2.get(currency)));
-            }catch (NullPointerException e){
-                System.out.println("No data to compare for "+ currency);
+            } catch (NullPointerException e) {
+                System.out.println("No data to compare for " + currency);
             }
 
         }
@@ -65,7 +67,7 @@ public class Tests {
     }
     @Test
     public void removeData (){
-        mongoDbConnection.removeRecords(dayToDelte);
+        mongoDbConnection.removeRecords(dayToDelete);
     }
 
 

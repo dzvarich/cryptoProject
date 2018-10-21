@@ -5,9 +5,8 @@
     <classes>
       <class name="Tests">
         <methods>
-          <include name="time"/>
+          <include name="dataTest"/>
           <include name="afterMethod"/>
-          <include name="addNewRecordToDB"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- Tests -->
