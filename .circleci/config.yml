@@ -32,6 +32,10 @@ workflows:
    nightly:
      triggers:
        - schedule:
-           cron: "0 0 * * *"
+           cron: "* * * * *"
+           filters:
+             branches:
+               only:
+                 - master
      jobs:
        - test
