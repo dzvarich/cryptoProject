@@ -38,4 +38,5 @@ workflows:
                only:
                  - master
      jobs:
-       - cryptoProject
+       - dzvarich
+
