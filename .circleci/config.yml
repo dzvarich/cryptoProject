@@ -2,12 +2,8 @@
 #
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
-workflows:
-   version: 2
-   nightly:
-     triggers:
-       - schedule:
-           cron: "* * * * *"
+version: 2
+
 jobs:
   build:
     docker:
@@ -44,3 +40,9 @@ jobs:
         
       # run tests!
       - run: mvn integration-test
+workflows:
+   version: 2
+   nightly:
+     triggers:
+       - schedule:
+           cron: "* * * * *"
