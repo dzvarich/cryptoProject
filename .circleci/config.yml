@@ -29,7 +29,7 @@ jobs:
       
 workflows:
    version: 2
-   nightly:
+   every_minute:
      triggers:
        - schedule:
            cron: "* * * * *"
@@ -38,5 +38,5 @@ workflows:
                only:
                  - master
      jobs:
-       - dzvarich
+       - build
 
