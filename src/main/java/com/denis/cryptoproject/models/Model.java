@@ -150,7 +150,7 @@ public class Model {
         System.out.println(Created);
     }
 
-    public Model parsingJson(String json) throws IOException, ParseException {
+    public Model parsingJson(String json) throws IOException{
         Model model = new Model();
         JsonNode node = new ObjectMapper().readTree(json);
         model.setMarketName(node.get("MarketName").asText());
@@ -168,22 +168,5 @@ public class Model {
         model.setCreated(node.get("Created").asText());
 
         return model;
-    }
-
-    public String getDateInCurrentTimeZone(String str) throws ParseException {
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm");
-        Calendar calendar = Calendar.getInstance();
-        Date date = dateFormat.parse(str);
-        calendar.setTime(date);
-        calendar.add(Calendar.HOUR, 2);
-
-        return calendar.toString().substring(16);
-    }
-    public String getYesterdayToString(){
-        Calendar yesterday = Calendar.getInstance();
-        yesterday.add(Calendar.DATE, -1);
-        SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm");
-        dateFormat.setCalendar(yesterday);
-        return dateFormat.format(yesterday.getTime());
     }
 }

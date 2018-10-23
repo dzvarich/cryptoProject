@@ -9,9 +9,7 @@ import org.bson.Document;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.List;
+import java.util.*;
 
 
 import static com.mongodb.client.model.Filters.eq;
@@ -64,10 +62,33 @@ public class GettingDataFromDB {
         Block<Document> printBlock = new Block<Document>() {
             @Override
             public void apply(final Document document) {
+                try {
+                    JsonNode node = new ObjectMapper().readTree(document.toJson());
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
                 System.out.println(document.toJson());
             }
         };
 
-        mongoDbConnection.collection.find(eq("TimeStamp", "2018-10-04T20:06")).forEach(printBlock);
+        mongoDbConnection.collection.find().forEach(printBlock);
+    }
+
+    public void findAll () throws IOException {
+        MongoCursor<Document> cursor = mongoDbConnection.collection.find().iterator();
+        Set <String> set = new HashSet<>();
+        try {
+            while (cursor.hasNext()) {
+                JsonNode node = new ObjectMapper().readTree(cursor.next().toJson());
+                set.add(node.get("TimeStamp").asText());
+            }
+        } finally {
+            cursor.close();
+        }
+        for (String timestamp: set
+             ) {
+            System.out.println(timestamp);
+        }
     }
 }

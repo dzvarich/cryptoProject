@@ -1,6 +1,8 @@
 package com.denis.cryptoproject.framework;
 
 import java.io.IOException;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.HashMap;
 import java.util.List;
 
@@ -24,6 +26,8 @@ public class WorkingWithFinalData {
     }
 
     public Double percentChange (Double value1, Double value2){
-        return (value2 - value1)/value1*100;
+        BigDecimal bd = new BigDecimal((value2 - value1)/value1*100);
+        bd = bd.setScale(2, RoundingMode.HALF_UP);
+        return bd.doubleValue();
     }
 }

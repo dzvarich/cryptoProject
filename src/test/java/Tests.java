@@ -63,12 +63,16 @@ public class Tests {
             }
 
         }
-
     }
     @Test
     public void removeData (){
         mongoDbConnection.removeRecords(dayToDelete);
     }
+
+/*    @Test
+    public void testTest () throws IOException {
+        gettingDataFromDB.findAll();
+    }*/
 
 
     @AfterMethod()
