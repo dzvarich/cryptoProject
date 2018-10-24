@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="459c524f-ad0f-4abc-83d3-294343f46ee2" name="Default" comment="Unversioned">
+    <list default="true" id="459c524f-ad0f-4abc-83d3-294343f46ee2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CryptoProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/GettingDataFromDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/GettingDataFromDB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/WorkingWithFinalData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/WorkingWithFinalData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/models/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/models/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/selenium.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/selenium.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/GettingDataFromDB$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/GettingDataFromDB$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/GettingDataFromDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/GettingDataFromDB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/models/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/models/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/utils/MongoDbConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/utils/MongoDbConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/WorkingWithFinalData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/WorkingWithFinalData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/selenium.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/selenium.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -91,11 +86,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="666">
-              <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+            <state relative-caret-position="1037">
+              <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,8 +113,8 @@
       <file leaf-file-name="GettingDataFromDB.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/GettingDataFromDB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="428">
-              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="1020">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,11 +155,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selenium.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="selenium.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/selenium.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -215,15 +210,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/BrowserType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/UnknownPropertyException.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/selenium.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/Settings.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/DocumentGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/utils/MongoDbConnection.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/models/Model.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/GettingDataFromDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/WorkingWithFinalData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/selenium.properties" />
       </list>
     </option>
   </component>
@@ -251,8 +246,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,7 +333,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -355,6 +350,116 @@
       <recent name="C:\Users\dzvarich\Dropbox\CryptoProject\src\main\resources" />
     </key>
   </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/selenium.properties</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -367,7 +472,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Tests">
+  <component name="RunManager" selected="TestNG.Tests.dataTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method>
@@ -557,8 +662,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Tests" />
         <item itemvalue="TestNG.Tests.dataTest" />
+        <item itemvalue="TestNG.Tests" />
         <item itemvalue="TestNG.Tests.testTest" />
         <item itemvalue="TestNG.Tests.removeData" />
         <item itemvalue="TestNG.Tests.time" />
@@ -590,39 +695,46 @@
       <option name="project" value="LOCAL" />
       <updated>1540083067307</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Rounding">
+      <created>1540319067648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1540319067648</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_time - 2018.10.05 at 20h 54m 36s.xml">
-      <configuration name="Tests.time" configurationId="TestNG" />
+    <history-entry file="Tests - 2018.10.23 at 21h 23m 41s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_time - 2018.10.05 at 20h 55m 24s.xml">
-      <configuration name="Tests.time" configurationId="TestNG" />
+    <history-entry file="Tests - 2018.10.24 at 03h 45m 34s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_time - 2018.10.05 at 20h 56m 29s.xml">
-      <configuration name="Tests.time" configurationId="TestNG" />
+    <history-entry file="Tests - 2018.10.24 at 03h 48m 14s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_time - 2018.10.05 at 20h 57m 21s.xml">
-      <configuration name="Tests.time" configurationId="TestNG" />
+    <history-entry file="Tests - 2018.10.24 at 03h 49m 19s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_dataTest - 2018.10.05 at 21h 47m 50s.xml">
+    <history-entry file="Tests - 2018.10.24 at 03h 51m 58s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests - 2018.10.24 at 03h 52m 16s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_dataTest - 2018.10.24 at 03h 53m 01s.xml">
       <configuration name="Tests.dataTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_dataTest - 2018.10.05 at 21h 48m 24s.xml">
+    <history-entry file="Tests_dataTest - 2018.10.24 at 03h 53m 09s.xml">
       <configuration name="Tests.dataTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_dataTest - 2018.10.17 at 01h 50m 04s.xml">
+    <history-entry file="Tests_dataTest - 2018.10.24 at 03h 53m 22s.xml">
       <configuration name="Tests.dataTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Tests_dataTest - 2018.10.17 at 01h 50m 43s.xml">
+    <history-entry file="Tests_dataTest - 2018.10.24 at 03h 53m 36s.xml">
       <configuration name="Tests.dataTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_testTest - 2018.10.22 at 00h 17m 30s.xml">
-      <configuration name="Tests.testTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_testTest - 2018.10.22 at 00h 37m 03s.xml">
-      <configuration name="Tests.testTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -640,14 +752,15 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3278867" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.21375267" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.12527233" />
-      <window_info anchor="right" id="Mongo Explorer" order="8" visible="true" weight="0.14285715" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5261438" />
+      <window_info anchor="right" id="Mongo Explorer" order="8" visible="true" weight="0.1444563" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32934782" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
@@ -657,7 +770,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39479393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3943355" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32934782" />
@@ -665,34 +778,33 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32837406" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3278867" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32934782" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5620438" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25729167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5620438" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32934782" />
       <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Mongo Explorer" order="8" visible="true" weight="0.134375" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39638683" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Mongo Explorer" order="8" visible="true" weight="0.134375" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32934782" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32837406" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32837406" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.21375267" />
       <window_info id="Favorites" order="6" side_tool="true" />
@@ -704,7 +816,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Handling NPE for comparing data" />
     <MESSAGE value="Unversioned" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unversioned" />
+    <MESSAGE value="Rounding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rounding" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -937,16 +1050,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/utils/MongoDbConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1870">
@@ -954,13 +1057,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/selenium.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -976,8 +1072,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/GettingDataFromDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="1020">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -994,13 +1090,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/utils/MongoDbConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/selenium.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
         </state>
       </provider>
     </entry>
