@@ -29,7 +29,7 @@ public class GettingDataFromDB {
         return dateFormat.format(currentDate.getTime());
     }
 
-    public HashMap<String, String> getData (List<String> list, String day){
+    public HashMap <String, String> getData (List<String> list, String day){
         HashMap <String, String> result = new HashMap<>();
         for (String currency: list
         ) {
@@ -46,15 +46,27 @@ public class GettingDataFromDB {
         return result;
     }
 
-    public String getValueOfNode(String json) throws IOException {
+    public String getValueOfNode(String json, String whatToFind) throws IOException {
         try {
             ObjectMapper mapper = new ObjectMapper();
             JsonNode root = mapper.readTree(json);
-            return root.path("Ask").asText();
+            return root.path(whatToFind).asText();
         }
         catch (NullPointerException n){
             System.out.println("Node is empty");
             return "";
+        }
+    }
+
+    public Double getPrev(String json) throws IOException {
+        try {
+            ObjectMapper mapper = new ObjectMapper();
+            JsonNode root = mapper.readTree(json);
+            return root.path("PrevDay").asDouble();
+        }
+        catch (NullPointerException n){
+            System.out.println("Node is empty");
+            return 0.0;
         }
     }
 
