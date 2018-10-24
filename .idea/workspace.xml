@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="459c524f-ad0f-4abc-83d3-294343f46ee2" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/selenium.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/selenium.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/GettingDataFromDB$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/GettingDataFromDB$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/GettingDataFromDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/GettingDataFromDB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/WorkingWithFinalData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/denis/cryptoproject/framework/WorkingWithFinalData.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/selenium.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/selenium.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests.class" afterDir="false" />
@@ -86,13 +87,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+            <state relative-caret-position="412">
+              <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2694#2695#0" expanded="true" />
+                <element signature="e#2754#2755#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GettingDataFromDB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/GettingDataFromDB.java">
+      <file leaf-file-name="WorkingWithFinalData.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/WorkingWithFinalData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="282">
+              <caret line="18" column="112" lean-forward="true" selection-start-line="18" selection-start-column="112" selection-end-line="18" selection-end-column="112" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,23 +146,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkingWithFinalData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/WorkingWithFinalData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="selenium.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="selenium.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/selenium.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -215,10 +206,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/utils/MongoDbConnection.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/models/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/selenium.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/GettingDataFromDB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/WorkingWithFinalData.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/selenium.properties" />
       </list>
     </option>
   </component>
@@ -472,7 +463,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Tests.dataTest">
+  <component name="RunManager" selected="TestNG.Tests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method>
@@ -662,8 +653,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Tests.dataTest" />
         <item itemvalue="TestNG.Tests" />
+        <item itemvalue="TestNG.Tests.dataTest" />
         <item itemvalue="TestNG.Tests.testTest" />
         <item itemvalue="TestNG.Tests.removeData" />
         <item itemvalue="TestNG.Tests.time" />
@@ -702,39 +693,53 @@
       <option name="project" value="LOCAL" />
       <updated>1540319067648</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Checking Property File">
+      <created>1540342726817</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540342726817</updated>
+    </task>
+    <task id="LOCAL-00005" summary="...">
+      <created>1540409507490</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1540409507490</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2018.10.23 at 21h 23m 41s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests - 2018.10.24 at 03h 45m 34s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests - 2018.10.24 at 03h 48m 14s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests - 2018.10.24 at 03h 49m 19s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests - 2018.10.24 at 03h 51m 58s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests - 2018.10.24 at 03h 52m 16s.xml">
-      <configuration name="Tests" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_dataTest - 2018.10.24 at 03h 53m 01s.xml">
-      <configuration name="Tests.dataTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Tests_dataTest - 2018.10.24 at 03h 53m 09s.xml">
-      <configuration name="Tests.dataTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Tests_dataTest - 2018.10.24 at 03h 53m 22s.xml">
       <configuration name="Tests.dataTest" configurationId="TestNG" />
     </history-entry>
     <history-entry file="Tests_dataTest - 2018.10.24 at 03h 53m 36s.xml">
       <configuration name="Tests.dataTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_dataTest - 2018.10.24 at 04h 00m 15s.xml">
+      <configuration name="Tests.dataTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_dataTest - 2018.10.24 at 04h 05m 51s.xml">
+      <configuration name="Tests.dataTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests_dataTest - 2018.10.24 at 04h 17m 30s.xml">
+      <configuration name="Tests.dataTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests - 2018.10.24 at 04h 17m 45s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests - 2018.10.24 at 04h 18m 18s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests - 2018.10.24 at 04h 20m 10s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests - 2018.10.24 at 13h 46m 06s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Tests - 2018.10.24 at 14h 29m 57s.xml">
+      <configuration name="Tests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -759,18 +764,18 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.21375267" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32897604" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5261438" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5261438" />
       <window_info anchor="right" id="Mongo Explorer" order="8" visible="true" weight="0.1444563" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32934782" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3943355" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3943355" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32934782" />
@@ -817,9 +822,21 @@
     <MESSAGE value="Handling NPE for comparing data" />
     <MESSAGE value="Unversioned" />
     <MESSAGE value="Rounding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rounding" />
+    <MESSAGE value="Checking Property File" />
+    <MESSAGE value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/WorkingWithFinalData.java</url>
+          <line>16</line>
+          <properties />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="this" />
@@ -973,6 +990,8 @@
           <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2694#2695#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1070,20 +1089,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/GettingDataFromDB.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/selenium.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/WorkingWithFinalData.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/GettingDataFromDB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="220">
+          <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1100,20 +1116,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/denis/cryptoproject/framework/WorkingWithFinalData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="61" column="35" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        <state relative-caret-position="282">
+          <caret line="18" column="112" lean-forward="true" selection-start-line="18" selection-start-column="112" selection-end-line="18" selection-end-column="112" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/selenium.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        <state relative-caret-position="412">
+          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2694#2695#0" expanded="true" />
+            <element signature="e#2754#2755#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

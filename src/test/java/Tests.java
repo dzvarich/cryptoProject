@@ -57,7 +57,7 @@ public class Tests {
         for (String currency : bittrex
         ) {
             try {
-                System.out.println(currency + " Yesterday" + "=" + value1.get(currency) + "                "+ currency + " Today" + "=" + value2.get(currency));
+                System.out.println(currency + " Yesterday" + " = " + value1.get(currency) + "                "+ currency + " Today" + " = " + value2.get(currency));
                 System.out.println(currency + " = " + workingWithFinalData.percentChange(value1.get(currency), value2.get(currency)));
                 System.out.println();
             } catch (NullPointerException e) {
@@ -70,12 +70,6 @@ public class Tests {
     public void removeData (){
         mongoDbConnection.removeRecords(dayToDelete);
     }
-
-/*    @Test
-    public void testTest () throws IOException {
-        gettingDataFromDB.findAll();
-    }*/
-
 
     @AfterMethod()
     public void afterMethod () {
