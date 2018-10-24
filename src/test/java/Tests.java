@@ -59,7 +59,7 @@ public class Tests {
             try {
 
                 System.out.println(currency + " Yesterday" + " = " + String.format("%.8f", value1.get(currency)) + "                "+ currency + " Today" + " = " + String.format("%.8f", value2.get(currency)));
-                System.out.println(currency + " = " + workingWithFinalData.percentChange(value1.get(currency), value2.get(currency)));
+                System.out.println(currency + " = " + workingWithFinalData.percentChange(value1.get(currency), value2.get(currency)) + " %");
                 System.out.println();
             } catch (NullPointerException e) {
                 System.out.println("No data to compare for " + currency);
