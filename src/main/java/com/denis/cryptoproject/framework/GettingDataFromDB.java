@@ -15,10 +15,8 @@ import java.util.*;
 import static com.mongodb.client.model.Filters.eq;
 import static com.mongodb.client.model.Filters.and;
 
-public class GettingDataFromDB {
+public class GettingDataFromDB extends BaseTest {
 
-
-    private MongoDbConnection mongoDbConnection = new MongoDbConnection();
 
     public String getTodayToString(int days, int minutes){
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm");

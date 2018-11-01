@@ -13,7 +13,7 @@ import static com.mongodb.client.model.Filters.eq;
 
 public class MongoDbConnection {
 
-    public MongoClientURI uri  = new MongoClientURI("mongodb://dzvarich:Tapckoe1@ds123753.mlab.com:23753/cryptodb");
+    public MongoClientURI uri  = new MongoClientURI("mongodb://dzvarich:Tapckoe1@ds046027.mlab.com:46027/cryptodb");
     public MongoClient mongoClient = new MongoClient(uri);
     private MongoDatabase db = mongoClient.getDatabase(uri.getDatabase());
     public MongoCollection<Document> collection = db.getCollection("collectionOfCurrencies");

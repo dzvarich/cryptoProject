@@ -6,9 +6,7 @@ import java.math.RoundingMode;
 import java.util.HashMap;
 import java.util.List;
 
-public class WorkingWithFinalData {
-
-    private GettingDataFromDB gettingDataFromDB = new GettingDataFromDB();
+public class WorkingWithFinalData extends BaseTest {
 
     public HashMap<String, Double> getDoubleFor (List<String> listOfCurrencies, String day) throws IOException {
         Double doubleValue;

@@ -17,9 +17,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import org.bson.Document;
 
 
-public class DocumentGenerator {
-
-    GettingDataFromDB gettingDataFromDB = new GettingDataFromDB();
+public class DocumentGenerator extends BaseTest {
 
     public String getJsonFromAPI (String link) throws IOException {
         URL yahoo = new URL(link);
